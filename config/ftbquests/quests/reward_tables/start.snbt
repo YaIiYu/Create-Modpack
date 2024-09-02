@@ -1,0 +1,11 @@
+{
+	icon: { Count: 5, id: "minecraft:spruce_log" }
+	id: "2FC800A7B5F4482A"
+	loot_size: 2
+	order_index: 0
+	rewards: [
+		{ count: 5, item: "minecraft:spruce_log" }
+		{ count: 5, item: "minecraft:oak_log" }
+	]
+	title: "Start"
+}

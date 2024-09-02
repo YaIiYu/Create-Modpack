@@ -22,8 +22,8 @@
         "value": 2048
       }
     },
-    "minecraft:generic.flying_speed": {
-      "enabled": true,
+    "puffish_attributes:player.stamina": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
@@ -42,17 +42,6 @@
       "max": {
         "default": 64,
         "value": 64
-      }
-    },
-    "minecraft:generic.movement_speed": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "forge:entity_gravity": {
@@ -77,17 +66,6 @@
         "value": 1024
       }
     },
-    "minecraft:generic.max_health": {
-      "enabled": true,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1024,
-        "value": 1000000
-      }
-    },
     "minecraft:generic.attack_speed": {
       "enabled": true,
       "min": {
@@ -110,6 +88,17 @@
         "value": 1000000
       }
     },
+    "minecolonies:mc_mob_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 20,
+        "value": 20
+      }
+    },
     "minecraft:generic.luck": {
       "enabled": true,
       "min": {
@@ -119,6 +108,83 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "forge:step_height": {
+      "enabled": false,
+      "min": {
+        "default": -512,
+        "value": -512
+      },
+      "max": {
+        "default": 512,
+        "value": 512
+      }
+    },
+    "minecraft:generic.armor": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 1000000
+      }
+    },
+    "forge:entity_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "minecraft:generic.flying_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "diet:natural_regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "minecraft:generic.movement_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "minecraft:generic.max_health": {
+      "enabled": true,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1000000
       }
     },
     "parcool:stamina_recovery": {
@@ -165,17 +231,6 @@
         "value": 2
       }
     },
-    "forge:step_height": {
-      "enabled": false,
-      "min": {
-        "default": -512,
-        "value": -512
-      },
-      "max": {
-        "default": 512,
-        "value": 512
-      }
-    },
     "minecraft:generic.attack_knockback": {
       "enabled": true,
       "min": {
@@ -184,17 +239,6 @@
       },
       "max": {
         "default": 5,
-        "value": 1000000
-      }
-    },
-    "minecraft:generic.armor": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 30,
         "value": 1000000
       }
     },
@@ -229,17 +273,6 @@
       "max": {
         "default": 20,
         "value": 1000000
-      }
-    },
-    "forge:entity_reach": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     }
   }
