@@ -3,10 +3,10 @@
 [general]
 	#Number of ticks to delay changing the player's temperature after their temperature changes.
 	#Range: > 0
-	temperature_change_delay = 3000
+	temperature_change_delay = 8000
 	#Number of ticks to delay changing the player's temperature after their temperature changes when wearing armor.
 	#Range: > 0
-	armor_temperature_change_delay = 50
+	armor_temperature_change_delay = 500
 	#Number of ticks to delay changing the player's temperature after their temperature changes when holding an item.
 	#Range: > 0
 	handheld_temperature_change_delay = 375
@@ -15,7 +15,7 @@
 	player_temperature_change_delay = 300
 	#Number of ticks to delay changing the player's temperature after their temperature changes when rebounding from an extreme temperature.
 	#Range: > 0
-	extremity_rebound_temperature_change_delay = 150
+	extremity_rebound_temperature_change_delay = 100
 	#Number of ticks to delay taking damage when icy or hot.
 	#Range: > 0
 	extremity_damage_delay = 500
