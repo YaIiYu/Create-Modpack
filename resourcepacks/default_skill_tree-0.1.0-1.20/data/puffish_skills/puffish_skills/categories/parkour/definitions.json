@@ -1,0 +1,320 @@
+{
+	"newbie": {
+		"title": "Freerun Jr.",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "minecraft:leather_boots"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+
+	"cling_to_cliff": {
+		"title": "Cliff HANGer",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "supplementaries:rope"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility ClingToCliff true"
+					
+				}
+			}
+		]
+	},
+
+	"super+jump": {
+		"title": "Catleap",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "hangglider:hang_glider"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility CatLeap true"
+					
+				}
+			}
+		]
+	},
+
+	"fast+swim": {
+		"title": "FastSwim",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "dolphins_grace"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility FastSwim true"
+					
+				}
+			}
+		]
+	},
+	"speed_rush": {
+		"title": "Fast RUNner",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility FastRun true"
+					
+				}
+			}
+		]
+	},
+
+	"movement_speed+5%": {
+		"title": "Fall Resistance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slow_falling"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"jump+5%": {
+		"title": "+10% Jump",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"climing": {
+		"title": "Wall Climb Up",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "minecraft:stone"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility ClimbUp true"
+					
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility ClingToCliff true"
+					
+				}
+			}
+		]	
+	},
+	"slide": {
+		"title": "Slide",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "minecraft:blue_ice"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility Slide true"
+					
+				}
+			}
+		]	
+	},
+
+	"vault": {
+		"title": "Vault",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "minecraft:oak_fence"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility Vault true"
+					
+				}
+			}
+		]	
+	},
+
+	"climbpoles": {
+		"title": "Climb Poles, Fences and Iron Bars",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "create:andesite_ladder"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility ClimbPoles true"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility HangDown true"
+				}
+			}
+		]	
+	},
+	
+
+	"breakfall": {
+		"title": "Breakfall",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "minecraft:anvil"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility BreakfallReady true"
+					
+				}
+			}
+		]	
+	},
+
+	"vert_wallrun": {
+		"title": "Wallrun (vert)",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "minecraft:honey_block"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility VerticalWallRun true"
+					
+				}
+			}
+		]	
+	},
+
+	"hor_wallrun": {
+		"title": "Wallrun (hor)",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "minecraft:honey_block"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility HorizontalWallRun true"
+					
+				}
+			}
+		]	
+	},
+
+	"wall_jump": {
+		"title": "Wall Jump",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "minecraft:slime_block"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility WallJump true"
+					
+				}
+			}
+		]	
+	},
+
+	"pole_jump": {
+		"title": "Pole Jump",
+		"icon": {
+			"type": "item",
+    		"data": {
+        		"item": "minecraft:honey_block"
+    				}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility JumpFromBar true"
+					
+				}
+			}
+		]	
+	}
+
+	
+}

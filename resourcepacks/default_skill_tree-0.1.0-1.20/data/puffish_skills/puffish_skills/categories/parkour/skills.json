@@ -1,0 +1,92 @@
+{
+	"kq0sdk3fmptttq7r": {
+		"definition": "speed_rush",
+		"x": 0,
+		"y": -252,
+		"root": false
+	},
+	"g1t8jprgug4vpc8w": {
+		"definition": "newbie",
+		"x": 0,
+		"y": -336,
+		"root": true
+	},
+	"korpjmxd6r0xxp25": {
+		"definition": "super+jump",
+		"x": -210,
+		"y": -294,
+		"root": false
+	},
+	"apu6lzt2qopccjmr": {
+		"definition": "fast+swim",
+		"x": 210,
+		"y": -294,
+		"root": false
+	},
+	"prh9ugho0r18vqsr": {
+		"definition": "jump+5%",
+		"x": -126,
+		"y": -252,
+		"root": false
+	},
+	"2l8q80dbpy53z8kb": {
+		"definition": "movement_speed+5%",
+		"x": 126,
+		"y": -252,
+		"root": false
+	},
+	"9upzwdqk7stchcgh": {
+		"definition": "vert_wallrun",
+		"x": 84,
+		"y": 84,
+		"root": false
+	},
+	"fmcglhht15dclm0m": {
+		"definition": "hor_wallrun",
+		"x": -84,
+		"y": 84,
+		"root": false
+	},
+	"z77cxoiemmatepbb": {
+		"definition": "climing",
+		"x": 0,
+		"y": -126,
+		"root": false
+	},
+	"7nok2e5odxauaci1": {
+		"definition": "wall_jump",
+		"x": 84,
+		"y": -84,
+		"root": false
+	},
+	"lte1opp64vl019tv": {
+		"definition": "vault",
+		"x": 84,
+		"y": -168,
+		"root": false
+	},
+	"6skajzu4lcmrudm3": {
+		"definition": "breakfall",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"0sk9rsemfi1l1zdb": {
+		"definition": "climbpoles",
+		"x": -90,
+		"y": -90,
+		"root": false
+	},
+	"est315cikqgis81o": {
+		"definition": "slide",
+		"x": -90,
+		"y": -180,
+		"root": false
+	},
+	"1hpb9syidyd0fxmd": {
+		"definition": "pole_jump",
+		"x": 0,
+		"y": 135,
+		"root": false
+	}
+}

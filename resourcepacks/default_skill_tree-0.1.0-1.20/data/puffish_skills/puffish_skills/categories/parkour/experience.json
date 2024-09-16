@@ -1,0 +1,86 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level * 1.432 * 50 + 400, 10000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"variables": {
+					"is_jump": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.jump"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_jump",
+						"expression": "1"
+					}
+
+				],
+				"anti_farming": {
+					"reset_after_seconds": 2
+				}
+				
+			
+		}
+	},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"variables": {
+					"sprint": {
+					"operations": [
+					{
+						"type": "get_stat"
+					},
+					{
+						"type": "puffish_skills:test",
+						"data": {
+							"stat": "minecraft.custom:minecraft.sprint_one_cm"
+						}
+					}
+					]
+					},
+					"amount": {
+					"operations": [
+						{
+							"type": "get_increase_amount"
+						}
+				]
+			}
+
+			
+					
+		},
+				"experience": [
+					{
+						"condition": "sprint",
+						"expression": "amount / 65"
+					}
+					],
+					"anti_farming": {
+						"limit_per_chunk": 15,
+						"reset_after_seconds": 1
+				}
+
+			
+
+			}
+		
+		}
+	]
+}

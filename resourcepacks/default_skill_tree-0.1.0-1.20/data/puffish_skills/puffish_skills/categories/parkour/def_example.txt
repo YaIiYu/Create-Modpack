@@ -1,0 +1,18 @@
+"super+jump": {
+		"title": "Enable Catleap",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/parcool limitation set individual of @s possibility CatLeap true"
+					
+				}
+			}
+		]
+	}
